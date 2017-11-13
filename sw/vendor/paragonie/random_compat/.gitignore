@@ -1,0 +1,8 @@
+dist/*
+other/*
+
+build-phar.sh
+composer.json
+LICENSE
+psalm-autoload.php
+psalm.xml

@@ -1,0 +1,21 @@
+# Project and backup files
+*~
+*.project
+.settings/*
+.idea
+
+# Composer
+vendor
+
+# Test coverage reports
+clover.xml
+
+examples/*
+.coveralls.yml
+.styleci.yml
+.travis.yml
+CHANGELOG.md
+composer.json
+LICENSE
+phpunit.xml.dist
+README.md

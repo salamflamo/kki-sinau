@@ -1,0 +1,9 @@
+build/*
+docs/*
+test/*
+.travis.yml
+CHANGELOG.md
+composer.json
+LICENSE
+README.md
+UPGRADING.md

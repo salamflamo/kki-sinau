@@ -1,0 +1,12 @@
+tests/*
+vendor/
+doc/*
+examples/*
+
+composer.lock
+.scrutinizer.yml
+.travis.yml
+composer.json
+Makefile
+phpunit.xml
+README.md

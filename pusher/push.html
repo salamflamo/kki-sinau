@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Pusher Test</title>
+<script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+<script>
+
+  // Enable pusher logging - don't include this in production
+  Pusher.logToConsole = false;
+
+  var pusher = new Pusher('86222d5ffd3fb0c00018', {
+    cluster: 'ap1',
+    encrypted: true
+  });
+
+  var channel = pusher.subscribe('my-channel');
+  channel.bind('my-event', function(data) {
+    alert(data.name+" "+data.message);
+  });
+</script>
+</head>
+  <body>
+    <div id="dialog" title="Basic dialog">
+
+    </div>
+  </body>
+</html>
