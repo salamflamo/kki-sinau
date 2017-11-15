@@ -4,9 +4,7 @@ $curl = curl_init();
 
 $header = array(
   'Content-Type: application/json; charset=UTF-8' ,
-  'Client-Service: frontend-client',
-  'Auth-Key: gmedia_kuliner',
-  'Content-Type: application/json'
+  'Header terserah kamu : ini nilai dari header'
 );
 
 $fields = array('id_restoran' => 27,);

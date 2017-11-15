@@ -4,8 +4,7 @@ $curl = curl_init();
 
 $header = array(
   'Content-Type: application/json; charset=UTF-8' ,
-  'Client-Service: frontend-client',
-  'Auth-Key: gmedia_kuliner'
+  'Header terserah kamu : ini nilai dari header'
 );
 
 curl_setopt($curl,CURLOPT_URL,"https://salamflamo.xyz/services/restoran");
