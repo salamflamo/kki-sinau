@@ -37,3 +37,7 @@
 #### CRUD menggunakan jQuery dan AJAX
 
 - [codeigniter](http://mbahcoding.com/tutorial/php/codeigniter/codeigniter-ajax-crud-using-bootstrap-modals-datatables-image-upload.html)
+
+#### CRUD Menggunakan firebase
+
+- Kunjungi [Demo](https://salamflamo.xyz/latihan/google/firebs.html)
